@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap);
+
+  body{
+    background-color: #FAEDD8;
+    font-family: 'PT Sans Narrow';
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #830505;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+    text-decoration: underline;
+  }
+  
+  .active {
+    background-color: gray;
+    text-decoration: underline;
+  }
+
+  footer{
+    list-style-type: none;
+    overflow: hidden;
+    width: 100%;
+    background-color: #830505;
+    text-align: center;
+  }
+
+  .center{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .titre{
+      font-weight: bold;
+      font-size: 150%;
+      color: #830505;
+      text-align: center;
+  }
+
+  .sous-titre{
+    text-align: center;
+    font-size: 120%;
+  }
+
+  .sou{
+    text-decoration: underline;
+  }
+
+  .bold{
+    font-weight: bold;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .red{
+    color: #830505;
+  }
+
+  .hover:hover{
+    text-decoration: underline;
+  }
